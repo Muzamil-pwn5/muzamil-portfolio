@@ -12,8 +12,8 @@ function Router() {
     <Switch>
       <Route path={"/"} component={Home} />
       <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
-      <Route component={NotFound} />
+      {/* GitHub Pages project sites include the repository name in the pathname. */}
+      <Route component={Home} />
     </Switch>
   );
 }
