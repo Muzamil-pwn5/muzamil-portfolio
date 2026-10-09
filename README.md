@@ -27,4 +27,4 @@ pnpm build:static
 
 ## Content to update
 
-Replace the placeholder professional email, add the LinkedIn profile URL, and expand the Flyrank AI internship details when the exact responsibilities and outcomes are confirmed.
+The site now uses muzamilabbas37280@gmail.com and the supplied LinkedIn profile. Expand the Flyrank AI internship details when the exact responsibilities and outcomes are confirmed.
