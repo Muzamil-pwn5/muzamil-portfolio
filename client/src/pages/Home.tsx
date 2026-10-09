@@ -47,7 +47,7 @@ export default function Home() {
       <main id="top">
         <section className="opening-scene" aria-labelledby="hero-title">
           <div className="opening-meta"><span>Backend developer</span><span>AI engineer</span><span>Pakistan</span></div>
-          <div className="hero-orbit" aria-hidden="true"><div className="orbit-core"><span>MA</span></div><i className="orbit-ring ring-one" /><i className="orbit-ring ring-two" /><i className="orbit-ring ring-three" /><div className="hero-character"><img src="/manus-storage/async-images/mHWhfFQ4yXo5K62rK0OMoG/image-1.webp" alt="Original anime-style portrait of Muzamil Abbas" /></div><span className="orbit-marker marker-one">01</span><span className="orbit-marker marker-two">AI</span></div>
+          <div className="hero-orbit" aria-hidden="true"><div className="orbit-core"><span>MA</span></div><i className="orbit-ring ring-one" /><i className="orbit-ring ring-two" /><i className="orbit-ring ring-three" /><div className="hero-character"><img src="./assets/muzamil-anime-boy.webp" alt="Original anime-style portrait of Muzamil Abbas" /></div><span className="orbit-marker marker-one">01</span><span className="orbit-marker marker-two">AI</span></div>
           <div className="opening-copy"><p className="opening-kicker">A portfolio by Muzamil Abbas</p><h1 id="hero-title">Building<br /><em>useful</em><br />systems.</h1><p className="opening-note">Backend, AI, and full-stack work for real-world problems.</p></div>
           <a className="enter-projects" href="#projects"><span>Explore work</span><ArrowDown size={17} /></a><div className="opening-footer"><span>Open to employment, internships, and freelance opportunities</span><span>Scroll to explore</span></div>
         </section>
