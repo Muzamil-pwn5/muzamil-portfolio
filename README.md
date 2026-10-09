@@ -1,14 +1,30 @@
-# Personal Portfolio
+# Muzamil Abbas Portfolio
 
-React / Express / tRPC / Drizzle starter, adapted from the Sandbox web-db-user template.
+Premium personal portfolio for Muzamil Abbas, a backend developer and AI engineer from Pakistan.
 
-- `pnpm dev`: development server; honors `PORT` (default 3000).
-- `pnpm build` / `pnpm start`: build and serve `dist/index.js` and `dist/public/`.
-- `pnpm db:migrate`: apply checked-in migrations. `pnpm db:push`: generate and apply new schema changes.
-- `pnpm check` / `pnpm test`: types and application tests.
+The site presents verified experience, selected projects, technical skills, education, freelance services, and contact information. The copy is intentionally conservative where internship details, certificate names, or personal contact links still need confirmation.
 
-Start with the Webdev skill's default-template guide. Platform login, storage, payments and service contracts live in its shared references; read the relevant capability before extending its helper.
+## Stack
 
-`server/_core/publicConfig.ts` exposes only named public runtime values. Private keys stay server-side. The platform serves managed `/manus-storage/` assets; the application does not register a second proxy.
+- React and TypeScript
+- Vite
+- Tailwind CSS
+- Lucide React
+- Responsive CSS with accessible section navigation
 
-Platform configuration is readable and editable through `webdev.config`. Default settings are initial values, not enforced constraints. The agent may modify the files, commands and configuration or follow the flexible guide for another stack.
+## Local development
+
+```bash
+pnpm install
+pnpm dev:static
+```
+
+The site is designed as a static portfolio and can be built with:
+
+```bash
+pnpm build:static
+```
+
+## Content to update
+
+Replace the placeholder professional email, add the LinkedIn profile URL, and expand the Flyrank AI internship details when the exact responsibilities and outcomes are confirmed.
